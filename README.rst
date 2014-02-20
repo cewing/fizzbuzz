@@ -65,3 +65,7 @@ numbers divisible by seven should print as 'Sezz'.
     13
     Sezz
     FizzBuzz
+
+
+.. image:: https://api.travis-ci.org/cewing/simple-echo-server.png
+    :alt: Travis CI Tests
