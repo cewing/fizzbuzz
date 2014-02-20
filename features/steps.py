@@ -9,7 +9,7 @@ def the_number(step, num):
     world.number = int(num)
 
 
-@step('when I call fizzbuzz')
+@step('I call fizzbuzz')
 def call_fizzbuzz(step):
     world.fb = fizzbuzz(world.number)
 

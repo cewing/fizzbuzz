@@ -1,1 +1,7 @@
-lettuce
+fuzzywuzzy==0.2
+lettuce==0.2.19
+nose==1.3.0
+python-termstyle==0.1.10
+rednose==0.4.1
+sure==1.2.5
+wsgiref==0.1.2
