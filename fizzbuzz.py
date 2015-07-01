@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """The module provides two functions, fizzbuzz and fizzbuzz_extended
 """
+import os
+os
 
 
 def fizzbuzz(n):
