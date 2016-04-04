@@ -2,6 +2,9 @@
 FizzBuzz
 ********
 
+.. image:: https://travis-ci.org/cewing/fizzbuzz.svg?branch=master
+    :target: https://travis-ci.org/cewing/fizzbuzz
+
 A pair of simple example functions that implement the fizzbuzz game.
 
 ``fizzbuzz``
@@ -67,5 +70,3 @@ numbers divisible by seven should print as 'Sezz'.
     FizzBuzz
 
 
-.. image:: https://api.travis-ci.org/cewing/simple-echo-server.png
-    :alt: Travis CI Tests
