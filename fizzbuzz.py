@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """The module provides two functions, fizzbuzz and fizzbuzz_extended
 """
+from __future__ import print_function
 import os
 os
 
@@ -40,11 +41,11 @@ def fizzbuzz_extended(n, additional={}):
 
 
 if __name__ == '__main__':
-    print "FizzBuzz Produces:"
+    print("FizzBuzz Produces:")
     for i in xrange(100):
-        print fizzbuzz(i),
-    print
-    print ""
+        print(fizzbuzz(i), end=" ")
+    print()
     others = {7: 'Sizz', 11: 'Elzz'}
     for i in xrange(100):
-        print fizzbuzz_extended(i, others),
+        print(fizzbuzz_extended(i, others), end=" ")
+    print()

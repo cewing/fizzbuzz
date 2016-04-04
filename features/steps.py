@@ -1,5 +1,5 @@
-from lettuce import step
-from lettuce import world
+from aloe import step
+from aloe import world
 
 from fizzbuzz import fizzbuzz
 
